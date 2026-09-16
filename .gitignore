@@ -1,0 +1,115 @@
+# -----------------------------------------------------------------------------
+# OS & Editor Metadata
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# -----------------------------------------------------------------------------
+# Environment & Secret Credentials (NEVER COMMIT)
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.conf
+*.pfx
+
+# -----------------------------------------------------------------------------
+# SyncDrop Storage & Test Uploads
+# -----------------------------------------------------------------------------
+server/storage/
+*.part
+
+# -----------------------------------------------------------------------------
+# Go (Server)
+# -----------------------------------------------------------------------------
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, output, and coverage
+*.test
+*.out
+server/coverage.html
+server/coverage.txt
+
+# Output of the go build command
+server/bin/
+server/main
+
+# Go workspace file
+go.work
+go.work.sum
+
+# -----------------------------------------------------------------------------
+# Flutter & Dart (Client)
+# -----------------------------------------------------------------------------
+# Files and directories created by pub
+client/.dart_tool/
+client/.packages
+client/build/
+client/.pub-cache/
+client/.pub/
+
+# Conventional build outputs
+client/build/**
+
+# Android specific
+client/android/**/gradle-wrapper.jar
+client/android/.gradle
+client/android/captures/
+client/android/gradlew
+client/android/gradlew.bat
+client/android/local.properties
+client/android/**/GeneratedPluginRegistrant.java
+client/android/key.properties
+*.jks
+*.keystore
+
+# iOS/macOS specific
+client/ios/Pods/
+client/ios/.symlinks/
+client/ios/Flutter/Flutter.framework
+client/ios/Flutter/Flutter.podspec
+client/ios/Flutter/Generated.xcconfig
+client/ios/Flutter/app.framework
+client/ios/**/GeneratedPluginRegistrant.h
+client/ios/**/GeneratedPluginRegistrant.m
+client/ios/**/default.mode1v3
+client/ios/**/default.mode2v3
+client/ios/**/default.pbxuser
+client/ios/**/default.perspectivev3
+client/ios/**/project.xcworkspace/xcuserdata
+client/ios/**/xcuserdata
+client/ios/**/DerivedData
+
+# Web specific
+client/lib/generated_plugin_registrant.dart
+
+# Symbol artifacts
+client/app.*.symbols
+client/app.*.map.json
